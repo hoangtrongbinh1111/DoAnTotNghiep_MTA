@@ -1,0 +1,33 @@
+List of Devices				MAC ADDRESS		Connection Type
+
+Smart_Things	d0:52:a8:00:67:5e 	Wired
+Amazon_Echo	44:65:0d:56:cc:d3 	Wireless
+Netatmo_Welcome	70:ee:50:18:34:43 	Wireless
+TP-Link_Day_Night_Cloud_camera	f4:f2:6d:93:51:f1 	Wireless
+Samsung_SmartCam	00:16:6c:ab:6b:88 	Wireless
+Dropcam	30:8c:fb:2f:e4:b2 	Wireless
+Insteon_Camera	00:62:6e:51:27:2e	Wired 
+Insteon_Camera	e8:ab:fa:19:de:4f 	Wireless
+Withings_Smart_Baby_Monitor	00:24:e4:11:18:a8 	Wired
+Belkin_Wemo_switch	ec:1a:59:79:f4:89 	Wireless
+TP-Link_Smart_plug	50:c7:bf:00:56:39 	Wireless
+iHome	74:c6:3b:29:d7:1d 	Wireless
+Belkin_wemo_motion_sensor	ec:1a:59:83:28:11 	Wireless
+NEST_Protect_smoke_alarm	18:b4:30:25:be:e4	Wireless
+Netatmo_weather_station	70:ee:50:03:b8:ac 	Wireless
+Withings_Smart_scale	00:24:e4:1b:6f:96 	Wireless
+Blipcare_Blood_Pressure_meter	74:6a:89:00:2e:25 	Wireless
+Withings_Aura_smart_sleep_sensor	00:24:e4:20:28:c6 	Wireless
+Light_Bulbs_LiFX_Smart_Bulb	d0:73:d5:01:83:08 	Wireless
+Triby_Speaker	18:b7:9e:02:20:44 	Wireless
+PIX-STAR_Photo-frame	e0:76:d0:33:bb:85 	Wireless
+HP_Printer	70:5a:0f:e4:9b:c0 	Wireless
+Non-IoT	08:21:ef:3b:fc:e3	Wireless
+Nest_Dropcam	30:8c:fb:b6:ea:45	Wireless
+Non-IoT	40:f3:08:ff:1e:da	Wireless
+Non-IoT	74:2f:68:81:69:42	Wireless
+Non-IoT	ac:bc:32:d4:6f:2f	Wireless
+Non-IoT	b4:ce:f6:a7:a3:c2	Wireless
+Non-IoT	d0:a6:37:df:a1:e1	Wireless
+Non-IoT	f4:5c:89:93:cc:85	Wireless
+TPLink_Router_Bridge_LAN (Gateway)	14:cc:20:51:33:ea

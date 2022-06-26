@@ -146,6 +146,4 @@ dmypy.json
 .history
 
 # config ignore
-/checkpoint/*
-/Dataset/*
-/logs/*
+
