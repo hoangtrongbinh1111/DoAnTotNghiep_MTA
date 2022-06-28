@@ -43,20 +43,23 @@ def statisticFile(pcap_dir):
 def standard_Bin(pcap_file, pcap_new_file):
     with open(pcap_file, "r") as f:
         data = f.read()
-    if data != "":
-        data = data.strip().replace(':',' ').replace('\n','')
-        data = binascii.unhexlify(''.join(data.split()))
-        with open(pcap_new_file, "wb") as file:
-            file.write(data)
+        if data != "":
+            data = data.strip().replace(':',' ').replace('\n','')
+            data = binascii.unhexlify(''.join(data.split()))
+            with open(pcap_new_file, "wb") as file:
+                file.write(data)
 
 def splitByMAC(pcap_dir, dict_mac):
     counter = 0
     for item in os.listdir(pcap_dir):
-        counter = counter + 1
         source_dir_item = os.path.join(pcap_dir, item)
         try:
             src_MAC = loadPcap(source_dir_item)
             if src_MAC in dict_mac:
+                if dict_mac[src_MAC] == "Non-IoT_Wireless":
+                    if counter >= LIMIT_FILE_PCAP:
+                        continue
+                    counter = counter + 1
                 des_dir = os.path.join(PATH_GROUP_BY_MAC, dict_mac[src_MAC])
                 des_dir_item = os.path.join(des_dir, item)
                 pcap_new_file = os.path.join(des_dir, f"iot_{counter}.bin")
@@ -66,7 +69,7 @@ def splitByMAC(pcap_dir, dict_mac):
         except:
             continue
         if counter % 1000 == 0:
-            print("Loading...")
+            print("Loading in ")
     print('------ Done split by MAC address ------')
 
 def main():

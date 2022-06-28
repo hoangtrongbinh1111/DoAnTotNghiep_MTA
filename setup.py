@@ -9,3 +9,8 @@ LIST_DEVICE = "Dataset/List_Device/filelist.txt"
     IMAGE
 '''
 PNG_SIZE = 28
+
+'''
+    OTHER
+'''
+LIMIT_FILE_PCAP = 20000

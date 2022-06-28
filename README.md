@@ -15,6 +15,6 @@
 1. pwsh 1_Pcap2Session.ps1 -s
 2. rm -rf *UDP* / find -name "*UDP*" -delete
 3. python 2_Pcap2MAC.py
-4. pwsh 3_3_Standard_Dataset.ps1 -l -s 
+4. pwsh 3_Standard_Dataset.ps1 -l -s 
 5. python 4_Session2Png.py
 6. python 5_Png2Mnist.py
